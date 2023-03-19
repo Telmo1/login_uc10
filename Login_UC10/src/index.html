@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Formulario</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+ 
+</head>
+<body>
+    <main>
+        <div class="container-grid">
+            <form onsubmit="retornoDoLogin(event)">
+                <div class="logo">
+                    <img cImg fluid src="assets/logo gamershop (1).svg" alt="Game shop logo">
+                </div>
+                <div class="campo_label">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Insira seu E-mail">
+                </div>
+                <div class="campo_label">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+
+                <input type="submit" class="botao" value="Acessar">
+            </form>
+        </div>
+    </main>
+    <!-- CHAMANDO O JS -->
+
+  <app-root></app-root>
+</body>
+</html>
